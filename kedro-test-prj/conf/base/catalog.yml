@@ -1,0 +1,31 @@
+raw_daily_data:
+  type: PartitionedDataSet
+  path: data/01_raw
+  dataset: pandas.CSVDataSet
+  layer: raw
+
+raw_data:
+  type: pandas.CSVDataSet
+  filepath: data/01_raw/data.csv
+
+logistic_model:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/lr_model.pkl
+  versioned: true
+
+knn_model:
+  type: pickle.PickleDataSet
+  filepath: data/06_models/knn_model.pkl
+  versioned: true
+
+performance_lr_model:
+  type: pandas.ExcelDataSet
+  filepath: data/08_reporting/lr_report.xlsx
+  versioned: true
+
+performance_knn_model:
+  type: pandas.ExcelDataSet
+  filepath: data/08_reporting/knn_report.xlsx
+  versioned: true
+
+

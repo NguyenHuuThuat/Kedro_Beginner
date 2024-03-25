@@ -1,0 +1,1 @@
+{"raw_data": {"rows": 67463, "columns": 35, "file_size": 17302793}, "intermediate_data": {"rows": 67463, "columns": 34}, "intermediate_data_p2": {"rows": 67463, "columns": 34}, "processed_data": {"rows": 67463, "columns": 228}, "performance_knn_model": {"rows": 1, "columns": 3, "file_size": 0}, "performance_lr_model": {"rows": 1, "columns": 3, "file_size": 0}}
